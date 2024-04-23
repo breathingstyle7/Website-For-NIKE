@@ -1,0 +1,23 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-style: normal;
+  font-family: "Outfit", sans-serif;
+  box-sizing: border-box;
+}
+
+.flex {
+  display: flex;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.direction-column {
+  flex-direction: column;
+}
+.container {
+  width: 1400px;
+}
